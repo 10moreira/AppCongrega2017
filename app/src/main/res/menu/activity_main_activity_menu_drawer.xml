@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_home_24dp"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_programacao_geral"
+            android:icon="@drawable/ic_school_24dp"
+            android:title="Programação Geral" />
+
+        <item
+            android:id="@+id/nav_view"
+            android:icon="@drawable/ic_edit_24dp"
+            android:title="Inscrições" />
+
+
+        <item
+            android:id="@+id/nav_minicursos"
+            android:icon="@drawable/ic_attach_money_24dp"
+            android:title="2ª Via do boleto" />
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_event_24dp"
+            android:title="Datas e Valores" />
+        <item
+            android:id="@+id/nav_apoio"
+            android:icon="@drawable/ic_local_atm_24dp"
+            android:title="Patrocinio"/>
+
+           <item
+               android:id="@+id/Hotel"
+               android:icon="@drawable/ic_location_city_24dp"
+               android:title="Hotéis"/>
+
+            <item
+                android:id="@+id/Restaurante"
+                android:icon="@drawable/ic_restaurant_menu_24dp"
+                android:title="Restaurantes"/>
+
+        <item
+            android:id="@+id/nav_sobre"
+            android:icon="@drawable/ic_adb_24dp"
+            android:title="Sobre" />
+
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_directions_walk_24dp"
+            android:title="Sair" />
+    </group>
+
+</menu>

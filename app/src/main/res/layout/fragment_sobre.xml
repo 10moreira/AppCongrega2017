@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mateusmoreira.appcongrega2017.SobreFragment">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            style="@style/AppTheme"
+            android:text="Sobre:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:adjustViewBounds="true"
+            android:src="@drawable/logo_urcamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            style="@style/AppTheme"
+            android:text="Proj. de Extensão Fábrica de Software do Pampa."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/AppTheme"
+            android:text="Componentes: Mateus S. Moreira, Denizar S. Souza. \nOrientador: Fábio J. Paz e Clarisse Ismério."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/AppTheme"
+            android:text="Contato do grupo: mateusmoreira@urcamp.edu.br, denizarsouza@urcamp.edu.br, fabiopaz@urcamp.edu.br, clarisseismerio@urcamp.edu.br"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/AppTheme"
+            android:text="Projeto vinculado a Proippex – Pró reitoria de inovação, pós graduação pesquisa e extensão, sob o numero: PQ989/16\n Em parceria com a ATI - Acessoria de Tecnologia da Informação."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+
+
+<!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mateusmoreira.appcongrega2017.SobreFragment">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="357dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Desenvolvido por: Mateus Moreira, Denizar Sousa. Com a orientação do prof. Msc. Fábio Paz.         Contato: mateusmoreira@urcamp.edu.br\n denizarsouza@ucamp.edu.br\n fabiopaz@urcamp.edu.br"
+        android:id="@+id/textView3"
+        android:layout_gravity="center"
+        android:textSize="20dp" />
+</FrameLayout>
+-->
